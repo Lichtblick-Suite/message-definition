@@ -1,11 +1,11 @@
 {
-  "name": "@foxglove/message-definition",
-  "version": "0.3.1",
+  "name": "@lichtblick/message-definition",
+  "version": "1.0.0",
   "description": "Defines common types for message definition schemas (ROS .msg, Protobuf, FlatBuffers, IDL, PX4 ULog, JSON Schema, etc)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/foxglove/message-definition.git"
+    "url": "https://github.com/Lichtblick-Suite/message-definition.git"
   },
   "keywords": [
     "schema",
@@ -21,10 +21,10 @@
     "grammar"
   ],
   "author": {
-    "name": "Foxglove Technologies Inc",
-    "email": "contact@foxglove.dev"
+    "name": "Lichtblick",
+    "email": "lichtblick@bmwgroup.com"
   },
-  "homepage": "https://github.com/foxglove/message-definition",
+  "homepage": "https://github.com/lichtblick-suite",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -41,7 +41,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@foxglove/eslint-plugin": "0.21.0",
+    "@lichtblick/eslint-plugin": "1.0.1",
     "@types/jest": "^29.5.3",
     "@typescript-eslint/eslint-plugin": "5.54.0",
     "@typescript-eslint/parser": "5.54.0",
