@@ -45,7 +45,7 @@ export type MessageDefinitionField = {
   /**
    * Type name of this field. Valid primitive type names will differ across each
    * interface definition language, and complex types are often user-defined.
-   * Examples: "string", "int32", "geometry_msgs/Point", "lichtblick.Grid".
+   * Examples: "string", "int32", "geometry_msgs/Point", "foxglove.Grid".
    */
   type: string;
   /**
